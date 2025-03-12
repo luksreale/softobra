@@ -1,0 +1,24 @@
+/proyecto-gestion-obras
+│── /config
+│   ├── Database.php         # Configuración de la base de datos
+│── /models
+│   ├── User.php             # Modelo de usuario
+│   ├── Empresa.php          # Modelo de empresa
+│   ├── Obra.php             # Modelo de obra
+│── /controllers
+│   ├── AuthController.php   # Controlador de autenticación
+│   ├── ObraController.php   # Controlador de obras
+│── /views
+│   ├── login.php            # Página de login
+│   ├── dashboard.php        # Panel principal
+│── /public
+│   ├── /css
+│   │   ├── styles.css       # Estilos generales
+│   ├── /js
+│   │   ├── scripts.js       # Scripts de validación
+│   ├── index.php            # Punto de entrada
+│── /helpers
+│   ├── Session.php          # Gestión de sesiones
+│── .htaccess                # Reescritura de URLs (opcional)
+│── .env                     # Variables de entorno (opcional)
+│── README.md                # Documentación
